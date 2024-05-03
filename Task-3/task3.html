@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MAIN CSS LINK -->
+    <link rel="stylesheet" href="./../style.css">
+
+    <!-- BOXICONS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Task 2</title>
+</head>
+
+<body class="bg-[#9999993a]">
+    <main class="mt-[100px] container">
+        <a href="./../index.html" class="text-[#b02020] font-[600] inline-block pb-[50px] text-[16px]">Home</a>
+        <form action="" class="wrapper flex items-center gap-[10px]" onsubmit="create(event)">
+            <input type="text" class="border-[1px] w-[200px] border-[#999] outline-none rounded-[4px] p-[5px] text-[12px]"  placeholder="Enter words">
+            <button class="bg-[#0000009b] duration-150 rounded-[4px] active:bg-[#0000009b] hover:bg-[#000000a8] py-[3px] text-[#fff] px-[10px]">OK</button>
+        </form>
+        <p id="result" class="text-[18px] mt-[20px] font-[700]"></p>
+    </main>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MAIN CSS LINK -->
+    <link rel="stylesheet" href="./../style.css">
+
+    <!-- BOXICONS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Task 1</title>
+</head>
+
+<body class="bg-[#9999993a]">
+    <main class="mt-[100px] container">
+        <a href="./../index.html" class="text-[#b02020] font-[600] inline-block pb-[50px] text-[16px]">Home</a>
+            <form action="" class="wrapper flex items-start gap-[40px]" onsubmit="create(event)">
+                <textarea id="textarea" cols="40" class="border-[1px] border-[#999] outline-none rounded-[10px] text-[16px] p-[10px]" rows="7" placeholder="Enter words"></textarea>
+
+                <div class="wrapper- flex flex-col gap-[20px]">
+                    <input type="text" id="inputcr" class="border-[1px] w-[200px] border-[#999] outline-none rounded-[10px] p-[5px] text-[12px]" placeholder="Enter words">
+                    <p class="font-[800] cursor-pointer text-[16px]">Meni bosing</p>
+                    <!-- <button class="bg-[#0000009b] mt-[125px] duration-150 active:bg-[#0000009b] hover:bg-[#000000a8] py-[5px] rounded-[6px] text-[#fff] px-[10px]">OK</button> -->
+                    <p id="result" class="text-[16px] font-[900] mt-[20px] hidden"></p>
+                </div>
+        </form>
+    </main>
+    <script src="./index.js"></script>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+</html>
